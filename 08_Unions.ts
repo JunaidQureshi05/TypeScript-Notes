@@ -28,3 +28,10 @@ function caculateTax(price: string | number, tax: number) {
   }
   return price * tax;
 }
+
+// Union arrays
+
+const stuff: (number | string)[] = [1, 2, 3, 4, "5", "6", "7"];
+
+// Literals types
+let difficulty: "easy" | "medium" | "hard";
